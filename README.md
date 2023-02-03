@@ -1,4 +1,4 @@
-# From SQL to NoSQL streaming
+# From SQL Server to NoSQL streaming using Community Licensed Kafka Confluent
 
 ## Stream to standard Couchbase server
 Prerequisite:
