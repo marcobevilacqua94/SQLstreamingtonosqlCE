@@ -35,7 +35,7 @@ Steps:
  * "couchbase.username": "application"
  * "couchbase.password": "*paste application user password*"
 14) Create the SQL Server Source and Sink Connectors:
- * curl -X POST -H "Content-Type: application/json" -d @SQLServerConnector.json http://localhost:8083/connectors  
+ * curl -X POST -H "Content-Type: application/json" -d @SqlServerConnector.json http://localhost:8083/connectors  
  * curl -X POST -H "Content-Type: application/json" -d @CouchbaseTLSSinkConnector.json http://localhost:8083/connectors
 15) Access to Control Center on localhost:9021 and verify that the connectors are OK
 16) Create proper KSQLDB streams to transform the data and load them in Couchbase (see file ksqldb). To do this simply run:
