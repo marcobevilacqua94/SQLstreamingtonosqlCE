@@ -12,13 +12,13 @@
 
     "topics": "target_customers, target_orders, target_order_items, target_products",
 
-    "couchbase.seed.nodes": "cb.1bq29kej1bt2bjfl.cloud.couchbase.com",
+    "couchbase.seed.nodes": "cb.ove3w-p64yns4app.cloud.couchbase.com",
 
-    "couchbase.password": "****************",
+    "couchbase.password": "Pwd12345!",
 
-    "couchbase.username": "application",
+    "couchbase.username": "application2",
 
-    "couchbase.bucket": "raw",
+    "couchbase.bucket": "bk",
 
     "couchbase.enable.tls": "true",
 
